@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/makecs75/static/css/main.622fd436.chunk.css",
+    "main.js": "/makecs75/static/js/main.333bdb48.chunk.js",
+    "main.js.map": "/makecs75/static/js/main.333bdb48.chunk.js.map",
+    "runtime-main.js": "/makecs75/static/js/runtime-main.25e57b85.js",
+    "runtime-main.js.map": "/makecs75/static/js/runtime-main.25e57b85.js.map",
+    "static/js/2.edeb7f65.chunk.js": "/makecs75/static/js/2.edeb7f65.chunk.js",
+    "static/js/2.edeb7f65.chunk.js.map": "/makecs75/static/js/2.edeb7f65.chunk.js.map",
+    "index.html": "/makecs75/index.html",
+    "precache-manifest.5f09e26667b2a4985cd0f6ad4d92479d.js": "/makecs75/precache-manifest.5f09e26667b2a4985cd0f6ad4d92479d.js",
+    "service-worker.js": "/makecs75/service-worker.js",
+    "static/css/main.622fd436.chunk.css.map": "/makecs75/static/css/main.622fd436.chunk.css.map",
+    "static/media/ali.gif": "/makecs75/static/media/ali.41457e12.gif",
+    "static/media/burger.svg": "/makecs75/static/media/burger.06ffc232.svg",
+    "static/media/contacts.png": "/makecs75/static/media/contacts.4d454028.png",
+    "static/media/djanibek.gif": "/makecs75/static/media/djanibek.a3fdb7a5.gif",
+    "static/media/empty-state.svg": "/makecs75/static/media/empty-state.cc79b946.svg",
+    "static/media/intro-gif.gif": "/makecs75/static/media/intro-gif.2917cb0f.gif",
+    "static/media/style.min.css": "/makecs75/static/media/pt-sans-v11-latin_cyrillic-ext-regular.f1f73e45.svg",
+    "static/media/logo.svg": "/makecs75/static/media/logo.25bf045c.svg",
+    "static/media/mohmad.gif": "/makecs75/static/media/mohmad.dd93be5d.gif"
+  }
+}
