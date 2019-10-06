@@ -85,14 +85,6 @@ body {
     overflow-x: hidden;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #f0db4f;
-}
-
 .text-center {
     text-align: center;
 }
@@ -740,7 +732,7 @@ body {
     }
 
     .container {
-        padding: .5em;
+        padding: 1.4rem;
     }
 
     .main {
@@ -798,9 +790,9 @@ body {
     body {
         font-size: 16px;
     }
-
-    ::-webkit-scrollbar {
-        width: .25em;
+    
+    .logo {
+        display: none;
     }
 
     .content-header__title {
