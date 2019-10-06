@@ -64,7 +64,7 @@ export default function Contacts() {
                 startIcon={<InstagramIcon />}
                 className={classes.button}
               >
-                <a target="_blank" href="https://instagram.com/makecsx">Instagram</a>
+                <a rel="noopener noreferrer" target="_blank" href="https://instagram.com/makecsx">Instagram</a>
               </Button>
               <Button
                 variant="contained"
@@ -72,7 +72,7 @@ export default function Contacts() {
                 startIcon={<YouTubeIcon />}
                 className={classes.button}
               >
-                <a target="_blank" href="https://www.youtube.com/channel/UC1EwTvZR9urb02af_xt28Kw">YouTube</a>
+                <a rel="noopener noreferrer" target="_blank" href="https://www.youtube.com/channel/UC1EwTvZR9urb02af_xt28Kw">YouTube</a>
               </Button>
               <ThemeProvider theme={secondTheme}>
                 <Button
@@ -81,7 +81,7 @@ export default function Contacts() {
                   startIcon={<TelegramIcon />}
                   className={classes.button}
                 >
-                  <a target="_blank" href="https://t.me/makecsx">Telegram</a>
+                  <a rel="noopener noreferrer" target="_blank" href="https://t.me/makecsx">Telegram</a>
                 </Button>
 
               </ThemeProvider>
@@ -90,7 +90,7 @@ export default function Contacts() {
             <address className="content__text text-center">Адрес: ул. Киевская, 45 A, Грозный</address>
 
             <div className="content__img">
-              <a className="content__img-link"
+              <a rel="noopener noreferrer" className="content__img-link"
                 href="https://goo.gl/maps/8tT7348kw5HNK8JXA"
                 target="_blank">
                 Открыть карту

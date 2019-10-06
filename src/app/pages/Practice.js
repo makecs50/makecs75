@@ -1,5 +1,5 @@
 import React from 'react'
-import LectureCard from '../components/LectureCard'
+
 import EmptyState from '../components/EmptyState'
 
 export default function Practice() {

@@ -40,9 +40,9 @@ export default function Menu(props) {
           <NavLink onClick={closeMenuOnClick} className="nav__link" to="/team">Команда</NavLink>
 
           <StyledButton
-            variant="contained"
+            variant="contained" target="_blank" href="https://forms.gle/jVidqZP1u6wuSpRY6"
           >
-            <a target="_blank" href="https://forms.gle/jVidqZP1u6wuSpRY6">Записаться</a>
+            Записаться
           </StyledButton>
 
         </nav>

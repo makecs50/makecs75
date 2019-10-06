@@ -36,12 +36,12 @@ export default function Team() {
                   </p>
                 </div>
                 <div class="team__socials">
-                  <a class="team__socials-link" target="_blank" href="https://t.me/makecsx">
+                  <a rel="noopener noreferrer" class="team__socials-link" target="_blank" href="https://t.me/makecsx">
                     <svg class="team__socials-icon">
                       <use hrefXlink="#telegram"></use>
                     </svg>
                   </a>
-                  <a class="team__socials-link" target="_blank" href="https://instagram.com/makecsx">
+                  <a rel="noopener noreferrer" class="team__socials-link" target="_blank" href="https://instagram.com/makecsx">
                     <svg class="team__socials-icon">
                       <use hrefXlink="#instagram"></use>
                     </svg>
@@ -63,7 +63,7 @@ export default function Team() {
                   <p>Сам принимает и другим предлагает, благодаря чему нашел вдохновение и создал данный ресурс (сайт <strong>makecs75.ru</strong>).</p>
                 </div>
                 <div class="team__socials">
-                  <a class="team__socials-link" target="_blank" href="https://t.me/webchech">
+                  <a rel="noopener noreferrer" class="team__socials-link" target="_blank" href="https://t.me/webchech">
                     <svg class="team__socials-icon">
                       <use hrefXlink="#telegram"></use>
                     </svg>
