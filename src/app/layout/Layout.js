@@ -10,6 +10,8 @@ import Contacts from '../pages/Contacts';
 import Team from '../pages/Team';
 import Footer from '../components/Footer';
 
+import burger from '../assets/img/svg/burger.svg';
+
 export default function Layout() {
   return (
     <div>
@@ -91,7 +93,7 @@ export default function Layout() {
           <Menu/>
           <main className="main grid-column">
             <button className="burger" type="button" id="burger">
-              <img className="burger__icon" src="img/svg/burger.svg" alt=""/>
+              <img className="burger__icon" src={burger} alt=""/>
             </button>
             <Switch>
               <Route exact path={'/'} component={About} />

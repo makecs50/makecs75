@@ -1,5 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import Button from '@material-ui/core/Button';
+import styled from 'styled-components';
+
+const StyledButton = styled(Button)`
+  background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+  border-radius: 0 !important;
+  color: white;
+  height: 48px;
+  padding: 0 30px;
+  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+`;
+
 
 export default function Menu() {
   return (
@@ -19,6 +31,13 @@ export default function Menu() {
           <NavLink className="nav__link" to="/practice">Практика</NavLink>
           <NavLink className="nav__link" to="/contacts">Контакты</NavLink>
           <NavLink className="nav__link" to="/team">Команда</NavLink>
+
+          <StyledButton
+            variant="contained"
+          >
+            <a target="_blank" href="https://instagram.com/makecsx">Записаться</a>
+          </StyledButton>
+
         </nav>
       </div>
     </aside>

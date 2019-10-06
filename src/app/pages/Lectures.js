@@ -1,5 +1,6 @@
 import React from 'react'
 import LectureCard from '../components/LectureCard'
+import EmptyState from '../components/EmptyState'
 
 export default function Lectures() {
   return (
@@ -14,18 +15,12 @@ export default function Lectures() {
 
           </div>
 
-          <p className="content__text padding-l">
-            Видеозаписи, слайды и лекционный код (код, написанный во время лекции).
+          <p className="content__text padding-l text-center">
+            Здесь будут публиковать видеозаписи, слайды и лекционный код (код, написанный во время лекции).
         </p>
 
           <div className="cards">
-            <LectureCard number="1" title="Hello World"/>
-            <LectureCard number="2" title="Hello World"/>
-            <LectureCard number="3" title="Hello World"/>
-            <LectureCard number="4" title="Hello World"/>
-            <LectureCard number="5" title="Hello World"/>
-            <LectureCard number="6" title="Hello World"/>
-            <LectureCard number="7" title="Hello World"/>
+            <EmptyState />
           </div>
         </div>
       </div>

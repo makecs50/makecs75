@@ -13,68 +13,43 @@ export default function Syllabus() {
           </div>
 
           <p className="content__text">
-            <span className="italic-text">Данный учебный план не является финальным и может подвергаться
-              изменениям в процессе
-                      обучения.</span> В общем, чем дальше мы будем продвигаться в изучении языка JS, тем
-          больше
-          будет меняться план проведения уроков.
-                  </p>
+            Данный курс строится на материалах <a className="text-bold" target="_blank" href="https://frontendmasters.com/teachers/kyle-simpson/">Кайлu Симпсона</a> - автор серии книг <span className="text-italic">"You don't know JS"</span>. Для более углубленного разбора работы JavaScript-окружения будут
+            использоваться материалы <span className="text-bold"><a target="_blank" href="https://frontendmasters.com/teachers/will-sentance/">Уилла Сентенса</a></span> - CEO компании Codesmith.
+          </p>
 
-          <h3 className="content__title">Что делает JavaScript особенным?</h3>
-
-          <div className="content__text">
-            Как минимум, три сильные стороны JavaScript:
-                  </div>
+          <h3 className="content__title">Вот детальное описание того, что именно мы будем проходить:</h3>
 
           <div className="border-block">
             <ul className="border-block__list">
-              <li className="border-block__list-item">Полная интеграция с HTML/CSS.</li>
-              <li className="border-block__list-item">Простые вещи делаются просто.</li>
-              <li className="border-block__list-item">Поддерживается всеми основными браузерами и включён
-                        по умолчанию.</li>
+              <li className="border-block__list-item">Синтаксис ES5</li>
+              <li className="border-block__list-item">Замыкания. Приведение типов. Hoisting</li>
+              <li className="border-block__list-item">Контекст this. Прототипное наследование</li>
+              <li className="border-block__list-item">Lexical Scope. Dynamic Scope. Functional & block scopes (области видимости)</li>
+              <li className="border-block__list-item">Функции-конструкторы. Функциональные выражения. Callbacks. IFFEs</li>
+              <li className="border-block__list-item">ES6: Классы. Деструктуризация. Стрелочные функции</li>
+              <li className="border-block__list-item">Web APIs. Event Loop. Queues</li>
+              <li className="border-block__list-item">Асинхронность: Promise. Async/Await. Observables</li>
+              <li className="border-block__list-item">AJAX: XMLHttpRequest. Fetch API</li>
+              <li className="border-block__list-item">Контекст выполнения</li>
+              <li className="border-block__list-item">Применение операторов</li>
+              <li className="border-block__list-item">Абстрактные операции</li>
+              <li className="border-block__list-item">Генераторы</li>
+              <li className="border-block__list-item">Функциональное программирование</li>
+              <li className="border-block__list-item">Статическая типизация. TypeScript</li>
+              <li className="border-block__list-item">DOM. Virtual DOM. Обработчики событий</li>
+              <li className="border-block__list-item">Стримы. Работа с пакетами</li>
+              <li className="border-block__list-item">переход к React'у</li>
             </ul>
           </div>
 
-          <div className="content__text">
-            JavaScript – это единственная браузерная технология, сочетающая в себе все эти три вещи.
-                  </div>
-
-          <p className="content__text">
-            Вот, что делает JavaScript особенным. Вот, почему это самый распространённый инструмент для
-            создания интерфейсов в браузере.
-                  </p>
-
-          <h3 className="content__title">Как будет проходить курс?</h3>
-
-          <p className="content__text">
-            Мы начнем с самых азов (Что такое JS? Как он работает? Как его использовать?) и будем
-            постепенно погружаться в более сложные разделы разбираемой технологии. Сопровождая курс как
-            практической, так и теоретической составляющей.
-                  </p>
-
-          <p className="content__text">
-            В данном курсе мы разработаем с вами проект, который будет включать: адаптивный дизайн и
-            анимированную боковую панель, модальные окна и формы, а также огромное количество
-            CSS-анимаций, шрифтов и многое другое!
-                  </p>
-
-          <div className="content__text">Вот детальное описание того, что именно мы будем проходить:</div>
+          <h3 className="content__title">Этот курс для вас, если ...</h3>
 
           <div className="border-block">
             <ul className="border-block__list">
-              <li className="border-block__list-item">Что-то интересное</li>
-              <li className="border-block__list-item">Что-то интересное</li>
-              <li className="border-block__list-item">Что-то интересное</li>
-              <li className="border-block__list-item">Что-то интересное</li>
-              <li className="border-block__list-item">Что-то интересное</li>
-              <li className="border-block__list-item">Что-то интересное</li>
-              <li className="border-block__list-item">Что-то интересное</li>
-              <li className="border-block__list-item">Что-то интересное</li>
-              <li className="border-block__list-item">Что-то интересное</li>
-              <li className="border-block__list-item">Что-то интересное</li>
+              <li className="border-block__list-item">вы на приемлемом уровне знакомы с основными концепциями языков программирования (структуры данных, типы данных, переменные, операторы и т.п.)</li>
+              <li className="border-block__list-item">вы до этого успели самостоятельно написать хотябы консольную программу (без учебников и каких-либо готовых, написанных кем-либо другим, строчек кода)</li>
             </ul>
           </div>
-
         </div>
       </div>
     </section>

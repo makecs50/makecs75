@@ -1,5 +1,6 @@
 import React from 'react'
 import LectureCard from '../components/LectureCard'
+import EmptyState from '../components/EmptyState'
 
 export default function Practice() {
   return (
@@ -13,18 +14,12 @@ export default function Practice() {
 							</h2>
           </div>
 
-          <p class="content__text padding-l">
-            Ниже приведен список опубликованных заданий курса CS75. Информация о публикации новых
-            заданий будет доступна на странице с лекциями ("Лекции").
-						</p>
+          <p class="content__text padding-l text-center">
+            Ниже будут опубликовываться задания курса CS75.
+          </p>
 
           <div class="cards cards--full">
-
-            <LectureCard gradient="greenToYellow" number="НП0"/>
-            <LectureCard gradient="greenToYellow" number="НП1"/>
-            <LectureCard gradient="greenToYellow" number="НП2"/>
-            <LectureCard gradient="greenToYellow" number="НП3"/>
-            
+            <EmptyState />
           </div>
 
         </div>
