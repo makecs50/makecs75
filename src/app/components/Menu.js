@@ -27,7 +27,7 @@ export default function Menu(props) {
 
         <div className="logo">
           <svg className="logo__img">
-            <use href="#logo-js"></use>
+            <use xlinkHref="#logo-js"></use>
           </svg>
         </div>
 

@@ -38,12 +38,12 @@ export default function Team() {
                 <div class="team__socials">
                   <a class="team__socials-link" target="_blank" href="https://t.me/makecsx">
                     <svg class="team__socials-icon">
-                      <use href="#telegram"></use>
+                      <use hrefXlink="#telegram"></use>
                     </svg>
                   </a>
                   <a class="team__socials-link" target="_blank" href="https://instagram.com/makecsx">
                     <svg class="team__socials-icon">
-                      <use href="#instagram"></use>
+                      <use hrefXlink="#instagram"></use>
                     </svg>
                   </a>
                 </div>
@@ -65,7 +65,7 @@ export default function Team() {
                 <div class="team__socials">
                   <a class="team__socials-link" target="_blank" href="https://t.me/webchech">
                     <svg class="team__socials-icon">
-                      <use href="#telegram"></use>
+                      <use hrefXlink="#telegram"></use>
                     </svg>
                   </a>
                   {/* <a class="team__socials-link" href="#">
