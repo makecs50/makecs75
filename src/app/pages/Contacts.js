@@ -1,6 +1,5 @@
 import React from 'react'
-import addressImage from '../assets/img/contacts1.jpg'
-import arrowImage from '../assets/img/svg/link-arrow.svg'
+import addressImage from '../assets/img/contacts.png'
 import Button from '@material-ui/core/Button';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
@@ -88,11 +87,11 @@ export default function Contacts() {
               </ThemeProvider>
             </div>
 
-            <address className="content__text text-center">Адрес: просп. Мохаммеда Али, 2а, Грозный</address>
+            <address className="content__text text-center">Адрес: ул. Киевская, 45 A, Грозный</address>
 
             <div className="content__img">
               <a className="content__img-link"
-                href="https://www.google.com/maps/place/%D0%A2%D0%A0%D0%A6+%22%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D1%8B%D0%B9-%D0%A1%D0%B8%D1%82%D0%B8%22/@43.3173037,45.7175249,19z/data=!4m5!3m4!1s0x4051d154130ca495:0xc02799933e021a42!8m2!3d43.3172196!4d45.7176401"
+                href="https://goo.gl/maps/8tT7348kw5HNK8JXA"
                 target="_blank">
                 Открыть карту
             </a>

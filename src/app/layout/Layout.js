@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {Route, Switch} from 'react-router-dom';
 
 import Menu from '../components/Menu';
@@ -13,6 +13,12 @@ import Footer from '../components/Footer';
 import burger from '../assets/img/svg/burger.svg';
 
 export default function Layout() {
+  const [mobileMenu, setMobileMenu] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenu(!mobileMenu);
+  }
+
   return (
     <div>
         <div className="sprites">
@@ -90,9 +96,9 @@ export default function Layout() {
           </div>
       <div className="page">
 
-          <Menu/>
+          <Menu mobileMenu={mobileMenu} setMobileMenu={setMobileMenu}/>
           <main className="main grid-column">
-            <button className="burger" type="button" id="burger">
+            <button onClick={toggleMobileMenu} className="burger" type="button" id="burger">
               <img className="burger__icon" src={burger} alt=""/>
             </button>
             <Switch>

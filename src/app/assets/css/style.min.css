@@ -119,7 +119,8 @@ body {
 }
  
 .lectures,
-.practice {
+.practice,
+.contacts {
     min-height: 90vh;
 }
 
@@ -269,7 +270,7 @@ body {
     padding: 0;
     border: 0;
     border-radius: 50%;
-    background-color: #252526;
+    background-color: transparent;
     -webkit-transition: opacity .2s linear, -webkit-transform .2s linear;
     transition: opacity .2s linear, -webkit-transform .2s linear;
     -o-transition: transform .2s linear, opacity .2s linear;
@@ -350,7 +351,7 @@ body {
     padding: .8em 1em;
     position: absolute;
     border-bottom: 2px solid #fff;
-    top: 17%;
+    top: 77%;
     right: 0;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;

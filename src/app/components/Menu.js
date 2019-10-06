@@ -13,9 +13,16 @@ const StyledButton = styled(Button)`
 `;
 
 
-export default function Menu() {
+export default function Menu(props) {
+  let closeMenuOnClick = () => { };
+  if (props.mobileMenu) {
+    closeMenuOnClick = () => {
+      props.setMobileMenu();
+    };
+  };
+
   return (
-    <aside className="aside grid-column" id="aside">
+    <aside className={props.mobileMenu ? "aside grid-column show" : "aside grid-column"} id="aside">
       <div className="aside__inner">
 
         <div className="logo">
@@ -25,17 +32,17 @@ export default function Menu() {
         </div>
 
         <nav className="nav" id="nav">
-          <NavLink className="nav__link" exact to="/">О курсе</NavLink>
-          <NavLink className="nav__link" to="/syllabus">Программа</NavLink>
-          <NavLink className="nav__link" to="/lectures">Лекции</NavLink>
-          <NavLink className="nav__link" to="/practice">Практика</NavLink>
-          <NavLink className="nav__link" to="/contacts">Контакты</NavLink>
-          <NavLink className="nav__link" to="/team">Команда</NavLink>
+          <NavLink onClick={closeMenuOnClick} className="nav__link" exact to="/">О курсе</NavLink>
+          <NavLink onClick={closeMenuOnClick} className="nav__link" to="/syllabus">Программа</NavLink>
+          <NavLink onClick={closeMenuOnClick} className="nav__link" to="/lectures">Лекции</NavLink>
+          <NavLink onClick={closeMenuOnClick} className="nav__link" to="/practice">Практика</NavLink>
+          <NavLink onClick={closeMenuOnClick} className="nav__link" to="/contacts">Контакты</NavLink>
+          <NavLink onClick={closeMenuOnClick} className="nav__link" to="/team">Команда</NavLink>
 
           <StyledButton
             variant="contained"
           >
-            <a target="_blank" href="https://instagram.com/makecsx">Записаться</a>
+            <a target="_blank" href="https://forms.gle/jVidqZP1u6wuSpRY6">Записаться</a>
           </StyledButton>
 
         </nav>

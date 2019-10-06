@@ -31,17 +31,17 @@ export default function Team() {
                 <div class="team__about">
                   <p>Бывший препод <strong>ГГНТУ</strong>.<br />
                     Еще не нынешний и не бывший препод <strong>ЧГУ</strong>.<br />
-                    Активно пытается понять чем занимается <strong>ЧГПУ</strong>.
+                    Активно пытается понять, чем занимается <strong>ЧГПУ</strong>.
 
                   </p>
                 </div>
                 <div class="team__socials">
-                  <a class="team__socials-link" href="#">
+                  <a class="team__socials-link" target="_blank" href="https://t.me/makecsx">
                     <svg class="team__socials-icon">
                       <use href="#telegram"></use>
                     </svg>
                   </a>
-                  <a class="team__socials-link" href="#">
+                  <a class="team__socials-link" target="_blank" href="https://instagram.com/makecsx">
                     <svg class="team__socials-icon">
                       <use href="#instagram"></use>
                     </svg>
@@ -63,16 +63,16 @@ export default function Team() {
                   <p>Сам принимает и другим предлагает, благодаря чему нашел вдохновение и создал данный ресурс (сайт <strong>makecs75.ru</strong>).</p>
                 </div>
                 <div class="team__socials">
-                  <a class="team__socials-link" href="#">
+                  <a class="team__socials-link" target="_blank" href="https://t.me/webchech">
                     <svg class="team__socials-icon">
                       <use href="#telegram"></use>
                     </svg>
                   </a>
-                  <a class="team__socials-link" href="#">
+                  {/* <a class="team__socials-link" href="#">
                     <svg class="team__socials-icon">
                       <use href="#instagram"></use>
                     </svg>
-                  </a>
+                  </a> */}
                 </div>
               </div>
 
@@ -90,7 +90,7 @@ export default function Team() {
                 <div class="team__about">
                   <p>Рофлит студентов, обучающихся по направлению <strong>Computer Science</strong>.</p>
                 </div>
-                <div class="team__socials">
+                {/* <div class="team__socials">
                   <a class="team__socials-link" href="#">
                     <svg class="team__socials-icon">
                       <use href="#telegram"></use>
@@ -103,7 +103,7 @@ export default function Team() {
                   </a>
 
 
-                </div>
+                </div> */}
               </div>
 
 
