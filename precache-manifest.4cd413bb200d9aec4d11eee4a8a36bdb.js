@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b89b8b522fe1cb4ac82da687740a7d8",
+    "revision": "c74d5dcf7c2de9f84f7ac8d1b334c459",
     "url": "/index.html"
   },
   {
-    "revision": "51b25b9f631d95259ebc",
-    "url": "/static/css/main.792b9875.chunk.css"
+    "revision": "53a9b3c004d7e43bad13",
+    "url": "/static/css/main.15d34ad7.chunk.css"
   },
   {
-    "revision": "d50f007d9b590f69c4f9",
-    "url": "/static/js/2.2c011442.chunk.js"
+    "revision": "88d360cc2c8c7aeb4ea1",
+    "url": "/static/js/2.a6075ecf.chunk.js"
   },
   {
-    "revision": "51b25b9f631d95259ebc",
-    "url": "/static/js/main.15dfd72e.chunk.js"
+    "revision": "53a9b3c004d7e43bad13",
+    "url": "/static/js/main.4c190585.chunk.js"
   },
   {
     "revision": "973a88b8579815653b0a",
     "url": "/static/js/runtime-main.dbb502ed.js"
+  },
+  {
+    "revision": "65dd5677efc6d1176fcd24a3351d6c60",
+    "url": "/static/media/Lecture1.65dd5677.zip"
   },
   {
     "revision": "41457e12e357d5120b9e2907358f58ff",
