@@ -104,6 +104,7 @@ export default function Layout() {
             <Switch>
               <Route exact path={'/'} component={About} />
               <Route path={'/contacts'} component={Contacts} />
+              <Route path={'/lectures/:number'} component={Lectures} />
               <Route path={'/lectures'} component={Lectures} />
               <Route path={'/practice'} component={Practice} />
               <Route path={'/syllabus'} component={Syllabus} />

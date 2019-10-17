@@ -13,7 +13,7 @@ export default function Syllabus() {
           </div>
 
           <p className="content__text">
-            Данный курс строится на материалах <a rel="noopener noreferrer" className="text-bold" target="_blank" href="https://frontendmasters.com/teachers/kyle-simpson/">Кайлu Симпсона</a> - автор серии книг <span className="text-italic">"You don't know JS"</span>. Для более углубленного разбора работы JavaScript-окружения будут
+            Данный курс строится на материалах <a rel="noopener noreferrer" className="text-bold" target="_blank" href="https://frontendmasters.com/teachers/kyle-simpson/">Кайла Симпсона</a> - автор серии книг <span className="text-italic">"You don't know JS"</span>. Для более углубленного разбора работы JavaScript-окружения будут
             использоваться материалы <span className="text-bold"><a rel="noopener noreferrer" target="_blank" href="https://frontendmasters.com/teachers/will-sentance/">Уилла Сентенса</a></span> - CEO компании Codesmith.
           </p>
 

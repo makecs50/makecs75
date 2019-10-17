@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 
 const LectureCard = (props) => {
@@ -10,11 +11,11 @@ const LectureCard = (props) => {
 
     // Choosing card gradient based on passed prop
     switch (gradient) {
-        case 'greenToYellow': 
+        case 'greenToYellow':
             backgroundGradient = `linear-gradient(to right,#09d3ac 0%,rgb(240, 220, 79) 100%);`
             buttonGradient = `linear-gradient(140deg, #d0fff6, rgb(255, 248, 202));`
             break;
-        default: 
+        default:
             backgroundGradient = `linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);`
             buttonGradient = `#fff;`
     }
@@ -46,7 +47,7 @@ const LectureCard = (props) => {
         }
     `
 
-    const Button = styled.a`
+    const Button = styled.span`
         text-decoration: none;
         color: #3C385C;
         font-weight: 800;
@@ -78,6 +79,9 @@ const LectureCard = (props) => {
         font-size: 1.2rem;
         text-align: center;
         margin-top: 15px;
+        text-shadow: 1px 1px 2px #f5b845;
+        color: #fff8ec;
+        cursor: default;
 
         // &::after{
         //     content: '';
@@ -100,6 +104,7 @@ const LectureCard = (props) => {
         font-size: 11rem;
         color: #FFFFFF;
         opacity: 0.2;
+        cursor: default;
         font-weight: 800;
         -webkit-transition: all 0.4s ease;
         -moz-transition: all 0.4s ease;
@@ -123,7 +128,9 @@ const LectureCard = (props) => {
         transform: translateY(-50%);
         left: 0; right: 0;
         text-align: center;
-        color: #FFFFFF;
+        text-shadow: 1px 1px 2px #f5b845;
+        color: #fff8ec;
+        cursor: default;
         -webkit-transition: all 0.4s ease;
         -moz-transition: all 0.4s ease;
         -ms-transition: all 0.4s ease;
@@ -150,11 +157,14 @@ const LectureCard = (props) => {
             <Number>{number}</Number>
             <TextContainer>
                 <div>{children}</div>
-                
+
             </TextContainer>
-            <Button>
-                <span>Подробнее</span>
-            </Button>
+
+            <Link to={`/lectures/${number}`}>
+                <Button>
+                    Подробнее
+                </Button>
+            </Link>
         </Container>
 
     );
