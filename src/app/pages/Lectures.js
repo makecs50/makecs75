@@ -48,6 +48,9 @@ export default function Lectures(props) {
             <LectureCard title="Неделя" number="2" >
               Фундаментальные объекты.
             </LectureCard>
+            <LectureCard title="Неделя" number="3" >
+              Абстрактые операции.
+            </LectureCard>
           </div>
         </div>
       </div>
