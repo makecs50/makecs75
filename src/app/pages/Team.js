@@ -82,7 +82,7 @@ export default function Team() {
                   <img src={djanibek} alt="" />
                 </div>
                 <div class="team__name">
-                  Джанибек
+                Са'д
 									</div>
                 <div class="team__work">
                   CS-рофлитель
