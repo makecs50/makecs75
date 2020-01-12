@@ -57,6 +57,9 @@ export default function Lectures(props) {
             <LectureCard title="Неделя" number="5" >
               Область видимости (Scope).
             </LectureCard>
+            <LectureCard title="Неделя" number="6" >
+              Execution Context. Closure.
+            </LectureCard>
           </div>
         </div>
       </div>

@@ -39,11 +39,11 @@ export default function Menu(props) {
           <NavLink onClick={closeMenuOnClick} className="nav__link" to="/contacts">Контакты</NavLink>
           <NavLink onClick={closeMenuOnClick} className="nav__link" to="/team">Команда</NavLink>
 
-          <StyledButton
+          {/* <StyledButton
             variant="contained" target="_blank" href="https://forms.gle/jVidqZP1u6wuSpRY6"
           >
             Записаться
-          </StyledButton>
+          </StyledButton> */}
 
         </nav>
       </div>
