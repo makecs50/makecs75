@@ -75,11 +75,12 @@ const LectureCard = (props) => {
     `
 
     const Title = styled.div`
+        color: #FFF;
         font-size: 1.2rem;
         text-align: center;
         margin-top: 15px;
         text-shadow: 1px 1px 2px #f5b845;
-        color: #1a1a1a;
+        color: #fff8ec;
         cursor: default;
 
         // &::after{
@@ -128,7 +129,7 @@ const LectureCard = (props) => {
         left: 0; right: 0;
         text-align: center;
         text-shadow: 1px 1px 2px #f5b845;
-        color: #1a1a1a;
+        color: #fff8ec;
         cursor: default;
         -webkit-transition: all 0.4s ease;
         -moz-transition: all 0.4s ease;
