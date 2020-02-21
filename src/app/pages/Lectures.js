@@ -60,6 +60,9 @@ export default function Lectures(props) {
             <LectureCard title="Неделя" number="6" >
               Execution Context. Closure.
             </LectureCard>
+            <LectureCard title="Неделя" number="7" >
+              Прототипное наследование.
+            </LectureCard>
           </div>
         </div>
       </div>
