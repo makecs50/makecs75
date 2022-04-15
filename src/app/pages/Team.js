@@ -59,8 +59,10 @@ export default function Team() {
                 <div className="team__work">
                   JS-употребитель
 									</div>
+                <h3><i><b>@badaevmh</b></i></h3>
+
                 <div className="team__about">
-                  <p>Сам принимает и другим предлагает, благодаря чему нашел вдохновение и создал данный ресурс (сайт <strong>makecs75.ru</strong>).</p>
+                  <p>Сам принимает и другим предлагает, благодаря чему смог сверстать данный ресурс (сайт <strong>makecs75.ru</strong>).</p>
                 </div>
                 <div className="team__socials">
                   <a rel="noopener noreferrer" className="team__socials-link" target="_blank" href="https://t.me/webchech">

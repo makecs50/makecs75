@@ -87,7 +87,7 @@ export default function Contacts() {
               </ThemeProvider>
             </div>
 
-            <address className="content__text text-center">Адрес: ул. Киевская, 45 A, Грозный</address>
+            {/*<address className="content__text text-center">Адрес: ул. Киевская, 45 A, Грозный</address>
 
             <div className="content__img">
               <a rel="noopener noreferrer" className="content__img-link"
@@ -96,7 +96,7 @@ export default function Contacts() {
                 Открыть карту
             </a>
               <img src={addressImage} alt="" />
-            </div>
+            </div>*/}
 
           </div >
         </div >

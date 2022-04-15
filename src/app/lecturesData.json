@@ -1,30 +1,34 @@
 [
   {
-    "title": "Неделя 1",
+    "title": "Лекция 1",
     "youtube": "https://www.youtube.com/embed/tC9Xr5WmXlk"
   },
   {
-    "title": "Неделя 2",
+    "title": "Лекция 2",
     "youtube": "https://www.youtube.com/embed/6CQ14rEIDOU"
   },
   {
-    "title": "Неделя 3",
+    "title": "Лекция 3",
     "youtube": "https://www.youtube.com/embed/AA5w_DV-SKs"
   },
   {
-    "title": "Неделя 4",
+    "title": "Лекция 4",
     "youtube": "https://www.youtube.com/embed/ouLgokuTJTA"
   },
   {
-    "title": "Неделя 5",
+    "title": "Лекция 5",
     "youtube": "https://www.youtube.com/embed/EvKgZ60kta4"
   },
   {
-    "title": "Неделя 6",
+    "title": "Лекция 6",
     "youtube": "https://www.youtube.com/embed/o6nwco5Hb6s"
   },
   {
-    "title": "Неделя 7",
+    "title": "Лекция 7",
     "youtube": "https://www.youtube.com/embed/SNgr4X5zdOk"
+  },
+  {
+    "title": "Лекция 8",
+    "youtube": "https://www.youtube.com/embed/CkSSzAG9f0o"
   }
 ]

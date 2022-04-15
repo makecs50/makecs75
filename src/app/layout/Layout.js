@@ -4,6 +4,7 @@ import {Route, Routes} from 'react-router-dom';
 import Menu from '../components/Menu';
 import About from '../pages/About';
 import Syllabus from '../pages/Syllabus';
+import Lecture from '../pages/Lecture';
 import Lectures from '../pages/Lectures';
 import Practice from '../pages/Practice';
 import Contacts from '../pages/Contacts';
@@ -104,7 +105,7 @@ export default function Layout() {
             <Routes>
               <Route path={'/'} element={<About/>} />
               <Route path={'/contacts'} element={<Contacts/>} />
-              <Route path={'/lectures/:number'} element={<Lectures/>} />
+              <Route path={'/lectures/:number'} element={<Lecture/>} />
               <Route path={'/lectures'} element={<Lectures/>} />
               <Route path={'/practice'} element={<Practice/>} />
               <Route path={'/syllabus'} element={<Syllabus/>} />

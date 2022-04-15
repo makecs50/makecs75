@@ -7,25 +7,6 @@ import lecturesData from '../lecturesData.json';
 export default function Lectures(props) {
   console.log(props)
 
-  // const loadLecturePage = () => {
-  //   const data = lecturesData[+props.match.params.number - 1]
-  //   if (data) {
-  //     return <Lecture
-  //       title={data.title}
-  //       youtube={data.youtube}
-  //       number={props.match.params.number}
-  //     />
-  //   } else {
-  //     return <div style={{ padding: "20px" }}>
-  //       Хватит "ломать" сайт!))
-  //     </div>
-  //   }
-  // }
-  //
-  // if (props.match.params.number) {
-  //   return loadLecturePage();
-  // }
-
   return (
     <section className="lectures">
       <div className="container container--lg">
@@ -43,27 +24,37 @@ export default function Lectures(props) {
         </p>
 
           <div className="cards">
-            <LectureCard title="Неделя" number="1" >
+            <LectureCard title="Лекция" number="1" >
               История JS. Базовые операторы. Функции-конструкторы.
             </LectureCard>
-            <LectureCard title="Неделя" number="2" >
+            <LectureCard title="Лекция" number="2" >
               Фундаментальные объекты.
             </LectureCard>
-            <LectureCard title="Неделя" number="3" >
+            <LectureCard title="Лекция" number="3" >
               Абстрактные операции.
             </LectureCard>
-            <LectureCard title="Неделя" number="4" >
+            <LectureCard title="Лекция" number="4" >
               Абстрактные операции (продолжение). Спецификация.
             </LectureCard>
-            <LectureCard title="Неделя" number="5" >
+            <LectureCard title="Лекция" number="5" >
               Область видимости (Scope).
             </LectureCard>
-            <LectureCard title="Неделя" number="6" >
+            <LectureCard title="Лекция" number="6" >
               Execution Context. Closure.
             </LectureCard>
-            <LectureCard title="Неделя" number="7" >
+            <LectureCard title="Лекция" number="7" >
               Прототипное наследование.
             </LectureCard>
+            <LectureCard title="Лекция" number="8" gradient="lightToBlue">
+              TypeScript. Статическая Типизация.
+            </LectureCard>
+            {/*<LectureCard title="Лекция" number="9" gradient="lightToBlue">*/}
+            {/*  TypeScript (Часть 2).*/}
+            {/*</LectureCard>*/}
+            {/*<LectureCard title="Лекция" number="10" gradient="lightToBlue">*/}
+            {/*  TypeScript (Часть 3).*/}
+            {/*</LectureCard>*/}
+
           </div>
         </div>
       </div>

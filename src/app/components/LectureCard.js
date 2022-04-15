@@ -8,16 +8,22 @@ const LectureCard = (props) => {
 
     let backgroundGradient;
     let buttonGradient;
+    let textColor = '#fff8ec';
 
     // Choosing card gradient based on passed prop
     switch (gradient) {
+        case 'lightToBlue':
+            backgroundGradient = `linear-gradient(to right,rgb(59 130 246 / 50%) 0%,#167ac6 100%)`
+            buttonGradient = `#fff8ec`
+            textColor = '#4591f5'
+            break;
         case 'greenToYellow':
-            backgroundGradient = `linear-gradient(to right,#09d3ac 0%,rgb(240, 220, 79) 100%);`
-            buttonGradient = `linear-gradient(140deg, #d0fff6, rgb(255, 248, 202));`
+            backgroundGradient = `linear-gradient(to right,#09d3ac 0%,rgb(240, 220, 79) 100%)`
+            buttonGradient = `linear-gradient(140deg, #d0fff6, rgb(255, 248, 202))`
             break;
         default:
-            backgroundGradient = `linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);`
-            buttonGradient = `#fff;`
+            backgroundGradient = `linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%)`
+            buttonGradient = `#fff`
     }
 
     const Container = styled.div`
@@ -36,7 +42,7 @@ const LectureCard = (props) => {
         -ms-transition: all 0.4s ease;
         -o-transition: all 0.4s ease;
         transition: all 0.4s ease;
-        background: ${backgroundGradient}
+        background: ${backgroundGradient};
 
         &:hover div:nth-child(2) {
             opacity: .5;
@@ -52,7 +58,7 @@ const LectureCard = (props) => {
         color: #3C385C;
         font-weight: 800;
         font-size: 0.7rem;
-        background: ${buttonGradient}
+        background: ${buttonGradient};
         width: 170px;
         line-height: 40px;
         display: block;
@@ -79,7 +85,7 @@ const LectureCard = (props) => {
         font-size: 1.2rem;
         text-align: center;
         margin-top: 15px;
-        text-shadow: 1px 1px 2px #f5b845;
+        text-shadow: 1px 1px 2px ${textColor};
         color: #fff8ec;
         cursor: default;
 
@@ -128,7 +134,7 @@ const LectureCard = (props) => {
         transform: translateY(-50%);
         left: 0; right: 0;
         text-align: center;
-        text-shadow: 1px 1px 2px #f5b845;
+        text-shadow: 1px 1px 2px ${textColor};
         color: #fff8ec;
         cursor: default;
         -webkit-transition: all 0.4s ease;

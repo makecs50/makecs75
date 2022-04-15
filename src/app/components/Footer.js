@@ -5,7 +5,6 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer__dev">
-          Created by <span className="footer__dev-author">badaevmh</span>
         </div>
       </div>
     </footer>
