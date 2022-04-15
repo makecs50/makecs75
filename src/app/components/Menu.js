@@ -32,7 +32,7 @@ export default function Menu(props) {
         </div>
 
         <nav className="nav" id="nav">
-          <NavLink onClick={closeMenuOnClick} className="nav__link" exact to="/">О курсе</NavLink>
+          <NavLink onClick={closeMenuOnClick} className="nav__link" to="/">О курсе</NavLink>
           <NavLink onClick={closeMenuOnClick} className="nav__link" to="/syllabus">Программа</NavLink>
           <NavLink onClick={closeMenuOnClick} className="nav__link" to="/lectures">Лекции</NavLink>
           <NavLink onClick={closeMenuOnClick} className="nav__link" to="/practice">Практика</NavLink>

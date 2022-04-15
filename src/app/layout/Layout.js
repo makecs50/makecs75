@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Route, Switch} from 'react-router-dom';
+import {Route, Routes} from 'react-router-dom';
 
 import Menu from '../components/Menu';
 import About from '../pages/About';
@@ -101,16 +101,16 @@ export default function Layout() {
             <button onClick={toggleMobileMenu} className="burger" type="button" id="burger">
               <img className="burger__icon" src={burger} alt=""/>
             </button>
-            <Switch>
-              <Route exact path={'/'} component={About} />
-              <Route path={'/contacts'} component={Contacts} />
-              <Route path={'/lectures/:number'} component={Lectures} />
-              <Route path={'/lectures'} component={Lectures} />
-              <Route path={'/practice'} component={Practice} />
-              <Route path={'/syllabus'} component={Syllabus} />
-              <Route path={'/team'} component={Team} />
-            </Switch>
-            
+            <Routes>
+              <Route path={'/'} element={<About/>} />
+              <Route path={'/contacts'} element={<Contacts/>} />
+              <Route path={'/lectures/:number'} element={<Lectures/>} />
+              <Route path={'/lectures'} element={<Lectures/>} />
+              <Route path={'/practice'} element={<Practice/>} />
+              <Route path={'/syllabus'} element={<Syllabus/>} />
+              <Route path={'/team'} element={<Team/>} />
+            </Routes>
+
             <Footer/>
           </main>
       </div>

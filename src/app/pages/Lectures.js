@@ -5,25 +5,26 @@ import lecturesData from '../lecturesData.json';
 
 
 export default function Lectures(props) {
+  console.log(props)
 
-  const loadLecturePage = () => {
-    const data = lecturesData[+props.match.params.number - 1]
-    if (data) {
-      return <Lecture
-        title={data.title}
-        youtube={data.youtube}
-        number={props.match.params.number}
-      />
-    } else {
-      return <div style={{ padding: "20px" }}>
-        Хватит "ломать" сайт!))
-      </div>
-    }
-  }
-
-  if (props.match.params.number) {
-    return loadLecturePage();
-  }
+  // const loadLecturePage = () => {
+  //   const data = lecturesData[+props.match.params.number - 1]
+  //   if (data) {
+  //     return <Lecture
+  //       title={data.title}
+  //       youtube={data.youtube}
+  //       number={props.match.params.number}
+  //     />
+  //   } else {
+  //     return <div style={{ padding: "20px" }}>
+  //       Хватит "ломать" сайт!))
+  //     </div>
+  //   }
+  // }
+  //
+  // if (props.match.params.number) {
+  //   return loadLecturePage();
+  // }
 
   return (
     <section className="lectures">

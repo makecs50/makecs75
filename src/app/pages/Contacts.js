@@ -4,10 +4,10 @@ import Button from '@material-ui/core/Button';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import TelegramIcon from '@material-ui/icons/Telegram';
-import { makeStyles, createMuiTheme } from '@material-ui/core/styles';
+import { makeStyles, createTheme } from '@material-ui/core/styles';
 import { ThemeProvider } from '@material-ui/styles';
 
-const theme = createMuiTheme({
+const theme = createTheme({
   palette: {
     primary: {
       light: '#757ce8',
@@ -24,7 +24,7 @@ const theme = createMuiTheme({
   },
 });
 
-const secondTheme = createMuiTheme({
+const secondTheme = createTheme({
   palette: {
     primary: {
       light: '#ff7961',
