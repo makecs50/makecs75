@@ -48,9 +48,9 @@ export default function Lectures(props) {
             <LectureCard title="Лекция" number="8" gradient="lightToBlue">
               TypeScript. Статическая Типизация.
             </LectureCard>
-            {/*<LectureCard title="Лекция" number="9" gradient="lightToBlue">*/}
-            {/*  TypeScript (Часть 2).*/}
-            {/*</LectureCard>*/}
+            <LectureCard title="Лекция" number="9" gradient="lightToBlue">
+              TypeScript. Разбор типов (продолжение)
+            </LectureCard>
             {/*<LectureCard title="Лекция" number="10" gradient="lightToBlue">*/}
             {/*  TypeScript (Часть 3).*/}
             {/*</LectureCard>*/}
