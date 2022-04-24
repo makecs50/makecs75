@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7a9097c6.css",
-    "main.js": "/static/js/main.c8f65fe2.js",
+    "main.js": "/static/js/main.5d5e799d.js",
     "static/media/Lecture7.zip": "/static/media/Lecture7.5f7e3db383d95998638d.zip",
     "static/media/Lecture10.zip": "/static/media/Lecture10.ac4f316b876d1223f6ea.zip",
     "static/media/Lecture8.zip": "/static/media/Lecture8.31d795528339a7df282b.zip",
@@ -37,10 +37,10 @@
     "static/media/burger.svg": "/static/media/burger.d58664bc02edbd65a4af5b6b350eb660.svg",
     "static/media/link-arrow.svg": "/static/media/link-arrow.367c9878e2abfc2f9bf7.svg",
     "main.7a9097c6.css.map": "/static/css/main.7a9097c6.css.map",
-    "main.c8f65fe2.js.map": "/static/js/main.c8f65fe2.js.map"
+    "main.5d5e799d.js.map": "/static/js/main.5d5e799d.js.map"
   },
   "entrypoints": [
     "static/css/main.7a9097c6.css",
-    "static/js/main.c8f65fe2.js"
+    "static/js/main.5d5e799d.js"
   ]
 }
