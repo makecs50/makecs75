@@ -1,7 +1,5 @@
 import React from 'react';
-import Lecture from './Lecture';
 import LectureCard from '../components/LectureCard';
-import lecturesData from '../lecturesData.json';
 
 
 export default function Lectures(props) {
@@ -46,13 +44,16 @@ export default function Lectures(props) {
               Прототипное наследование.
             </LectureCard>
             <LectureCard title="Лекция" number="8" gradient="lightToBlue">
-              TypeScript. Статическая Типизация.
+              TypeScript<br/> Статическая Типизация.
             </LectureCard>
             <LectureCard title="Лекция" number="9" gradient="lightToBlue">
-              TypeScript. Разбор типов (продолжение)
+              TypeScript<br/> Разбор типов (продолжение)
             </LectureCard>
             <LectureCard title="Лекция" number="10" gradient="lightToBlue">
-              TypeScript. Union & Literal Types
+              TypeScript<br/> Union & Literal Types
+            </LectureCard>
+            <LectureCard title="Лекция" number="11" gradient="lightToBlue">
+              TypeScript<br/> Функции и Типы. Конфигурация TS
             </LectureCard>
             {/*<LectureCard title="Лекция" number="10" gradient="lightToBlue">*/}
             {/*  TypeScript (Часть 3).*/}

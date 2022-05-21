@@ -8,7 +8,8 @@ import lecture7 from './Lecture7.zip'
 import lecture8 from './Lecture8.zip'
 import lecture9 from './Lecture9.zip'
 import lecture10 from './Lecture10.zip'
+import lecture11 from './Lecture11.zip'
 
-export default {
-  lecture1, lecture2, lecture3, lecture4, lecture5, lecture6, lecture7, lecture8, lecture9, lecture10,
+export {
+  lecture1, lecture2, lecture3, lecture4, lecture5, lecture6, lecture7, lecture8, lecture9, lecture10, lecture11,
 }

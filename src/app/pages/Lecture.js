@@ -1,10 +1,10 @@
 import React from 'react';
-import lectures from '../assets/presentations/';
+import * as lectures from '../assets/presentations/';
 import lecturesData from '../lecturesData.json';
 import { useParams } from 'react-router-dom';
 
 
-export default function Lecture(props) {
+export default function Lecture() {
   const { number } = useParams();
   const { title, youtube } = lecturesData[number - 1];
 
@@ -21,11 +21,11 @@ export default function Lecture(props) {
 
           <p className="content__text">
             <iframe style={{ width: '100%', height: '315' }}
-                    height="315"
-                    src={youtube}
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen></iframe>
+                    title={title}
+  height="315"
+  src={youtube}
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowFullScreen/>
           </p>
 
           <div className="border-block">
